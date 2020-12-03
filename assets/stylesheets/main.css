@@ -1,0 +1,10 @@
+*::selection {
+    background: #457B9D;
+    color: #1D3557;
+}
+
+body {
+    font-family:  'Space Grotesk', sans-serif;
+    background: linear-gradient(0.25turn, #26446e, #1D3557);
+    color: white;
+}
