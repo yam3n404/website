@@ -21,6 +21,17 @@
     z-index: 0;
 }
 
+.card--contact {
+    background: #457B9D;
+    flex-direction: row;
+    align-self: center;
+    max-width: 60%;
+    min-height: 100%;
+    margin: auto;
+    margin-top: -5%;
+    text-align: left;
+}
+
 .card--dark:hover {
     transform: translateY(-2px);
     box-shadow:  -5px 5px 50px black;

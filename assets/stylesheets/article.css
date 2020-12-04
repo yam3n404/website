@@ -47,10 +47,18 @@
     color: #1D3557;
 }
 
+.article__headline--thin {
+    font-weight: lighter;
+}
+
 .article__text {
     font-size: 28px;
     margin-top: -1%;
     font-weight: lighter;
+}
+
+.article__text--medium {
+    font-size: 22px;
 }
 
 .article__headline--medium {
@@ -59,6 +67,10 @@
 
 .article__text--dark {
     color: #457B9D;
+}
+
+.article__text--subtract {
+    width: 70%;
 }
 
 .article__button {
