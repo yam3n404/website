@@ -19,6 +19,8 @@
 
 .section--cards {
     background: #A8DADC;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .section--contact {

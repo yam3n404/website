@@ -1,0 +1,46 @@
+.card {
+    margin-top: -30%;
+    max-width: 550px;
+    width: 100%;
+    min-height: 1000px;
+    padding: 5%;
+    background: white;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    z-index: 1;
+    transition: all .4s ease-out;
+}
+
+.card--dark {
+    background: linear-gradient(0.25turn, #26446e, #1D3557);
+    z-index: 0;
+}
+
+.card--dark:hover {
+    transform: translateY(-2px);
+    box-shadow:  -5px 5px 50px black;
+    z-index: 1;
+}
+
+.card--light:hover {
+    transform: translateY(-2px);
+    box-shadow:  5px 5px 20px #A8DADC;
+}
+
+.card__list-title {
+    opacity: 50%;
+}
+
+.card__list-title--light {
+    color: #1D3557;
+}
+
+.card__list {
+    list-style: none;
+    padding: 0;
+}

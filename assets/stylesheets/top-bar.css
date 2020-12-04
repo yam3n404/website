@@ -20,16 +20,19 @@
 
 .top-bar__navigation-item--button {
     text-decoration: none;
+    text-transform: uppercase;
     color: #F1FAEE;
     position: relative;
     font-weight: bold;
     font-size: 18px;
+    opacity: 70%;
     transition: all .4s ease-in-out;
 }
 
 .top-bar__navigation-item--button:hover {
     transform: translateY(-2px);
     text-shadow:  1px 5px 15px black;
+    opacity: 100%;
 }
 
 .top-bar__navigation-item--button::before {
@@ -39,12 +42,12 @@
     height: 2px;
     width: 16px;
     background: #547291;
-    left: -24px;
+    left: -27px;
     top: 50%;
     transition: all .4s ease-in-out;
 }
 
 .top-bar__navigation-item--button:hover::before {
-    left: 90px;
+    left: 100px;
     background: white;
 }

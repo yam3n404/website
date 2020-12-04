@@ -4,6 +4,12 @@
     align-items: flex-start;
 }
 
+.article--card {
+    align-items: center;
+    flex-wrap: nowrap;
+    min-height: 400px;
+}
+
 .article--subtract {
     flex: .8;
 }
@@ -35,6 +41,10 @@
     font-size: 36px;
     letter-spacing: 2px;
     text-transform: inherit;
+}
+
+.article__headline--dark {
+    color: #1D3557;
 }
 
 .article__text {
