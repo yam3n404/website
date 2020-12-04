@@ -27,14 +27,33 @@
     background: #457B9D;
 }
 
+.section--bottom {
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 5%;
+}
+
 .section__figure {
     border-radius: 17px;
     height: 100%;
     width: auto;
+}
+
+.section__figure--bottom {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.section__figure--picture {
     transition: all .4s ease-in-out;
 }
 
-.section__figure:hover {
+.section__figure--picture:hover {
     transform: translateY(-2px);
     box-shadow:  1px 5px 50px black;
+}
+
+.section__caption {
+    margin-left: 3%;
 }

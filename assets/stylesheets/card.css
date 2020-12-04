@@ -21,8 +21,14 @@
     z-index: 0;
 }
 
+.card--dark:hover {
+    transform: translateY(-2px);
+    box-shadow:  -5px 5px 50px black;
+    z-index: 1;
+}
+
 .card--contact {
-    background: #457B9D;
+    background: linear-gradient(0.25turn, #325a72, #457B9D);
     flex-direction: row;
     align-self: center;
     max-width: 60%;
@@ -30,12 +36,12 @@
     margin: auto;
     margin-top: -5%;
     text-align: left;
+    transition: all .4s ease-out;
 }
 
-.card--dark:hover {
+.card--contact:hover {
     transform: translateY(-2px);
-    box-shadow:  -5px 5px 50px black;
-    z-index: 1;
+    box-shadow:  1px 1px 20px #80808034	;
 }
 
 .card--light:hover {

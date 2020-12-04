@@ -4,6 +4,8 @@
 }
 
 body {
+    max-width: 1900px;
+    margin: auto;
     font-family:  'Space Grotesk', sans-serif;
     background: linear-gradient(0.25turn, #26446e, #1D3557);
     color: white;
