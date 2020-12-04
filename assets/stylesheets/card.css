@@ -28,10 +28,11 @@
 }
 
 .card--contact {
-    background: linear-gradient(0.25turn, #325a72, #457B9D);
+    background: #457B9D;
     flex-direction: row;
     align-self: center;
-    max-width: 60%;
+    max-width: 64%;
+    padding: 3%;
     min-height: 100%;
     margin: auto;
     margin-top: -5%;

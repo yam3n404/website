@@ -12,9 +12,17 @@
 }
 
 .section--lighter {
-    background: linear-gradient(0.25turn, #325a72, #457B9D);
+    background: #457B9D;
     align-items: center;
     padding-bottom: 30%;
+}
+
+.section--main {
+    background: url(/assets/img/code-background.png) no-repeat center;
+    background-size: cover;
+    margin-top: -10%;
+    padding-top: 17%;
+    padding-bottom: 15%;
 }
 
 .section--cards {
@@ -31,6 +39,7 @@
     flex-direction: column;
     align-items: stretch;
     padding-top: 5%;
+    padding-bottom: 1%;
 }
 
 .section__figure {
