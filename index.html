@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="assets/stylesheets/main.css">
         <link rel="stylesheet" href="assets/stylesheets/top-bar.css">
         <link rel="stylesheet" href="assets/stylesheets/article.css">
+        <link rel="stylesheet" href="assets/stylesheets/section.css">
         <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
@@ -24,28 +25,28 @@
                 <a class="top-bar__navigation-item top-bar__navigation-item--button" href="mailto:yamenhadla@gmail.com">contact</a>
             </nav>
         </header>
-        <main>
+        <main class="section section--wider section--main">
             <article class="article">
                 <h1 class="article__headline">
                     <small class="article__headline article__headline--small">designer & developer</small><br>
-                    yamen hadla
+                    <span class="article__headline article__headline--tagged" class="article__headline--tagged">yamen hadla</span>
                 </h1>
                 <p class="article__text">I love to code and enjoy myself designing.</p>
                 <a class="article__button" href="mailto:yamenhadla@gmail.com">contact</a>
             </article>
-            <img src="assets/img/yamen-hadla-personal-picture.png" alt="Personal Picture">
+            <img class="section__figure" src="assets/img/yamen-hadla-personal-picture.png" alt="Personal Picture">
         </main>
         <section>
-            <figure>
-                <img src="assets/img/web-design-illustration.svg" alt="Web Design Illustration">
-                <figcaption class="article">
+            <figure class="section section--lighter">
+                <img class="section__figure" src="assets/img/web-design-illustration.svg" alt="Web Design Illustration">
+                <figcaption class="article article--subtract">
                     <h2 class="article__headline article__headline--medium">Hi, I’m Yamen Hadla</h2>
                     <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <a class="article__button" href="mailto:yamenhadla@gmail.com">contact</a>
+                    <a class="article__button article__button--dark" href="mailto:yamenhadla@gmail.com">contact</a>
                 </figcaption>
             </figure>
         </section>
-        <section>
+        <section class="section section--cards">
             <article>
                 <figure>
                     <img src="assets/img/designer-icon.svg" alt="Designer Icon">
@@ -92,17 +93,17 @@
                 </ul>
             </article>
         </section>
-        <section>
+        <section class="section section--contact">
             <article class="article">
                 <h2 class="article__headline article__headline--medium">Start a Project</h2>
                 <p class="article__text article__text--medium">Interested in working together? I’ll be more than happy to help</p>
             </article>
-            <a href="mailto:yamenhadla@gmail.com">contact</a>
+            <a class="article__button" href="mailto:yamenhadla@gmail.com">contact</a>
         </section>
-        <footer>
+        <footer class="section section--wider section--bottom">
             <figure>
                 <a href="index.html">
-                    <img src="assets/img/yamen-hadla-logo.png" alt="Yamen Hadla Logo">
+                    <img src="assets/img/yamen-hadla-logo-light-background.svg" alt="Yamen Hadla Logo">
                 </a>
                 <figcaption>Leveling up</figcaption>
             </figure>

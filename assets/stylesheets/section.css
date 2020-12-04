@@ -1,0 +1,38 @@
+.section {
+    margin: 0;
+    padding: 10% 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section--wider {
+    padding: 10% 10%;
+}
+
+.section--lighter {
+    background: linear-gradient(0.25turn, #325a72, #457B9D);
+    align-items: center;
+    padding-bottom: 30%;
+}
+
+.section--cards {
+    background: #A8DADC;
+}
+
+.section--contact {
+    
+}
+
+.section__figure {
+    border-radius: 17px;
+    height: 100%;
+    width: auto;
+    transition: all .4s ease-in-out;
+}
+
+.section__figure:hover {
+    transform: translateY(-2px);
+    box-shadow:  1px 5px 50px black;
+}

@@ -46,4 +46,5 @@
 
 .top-bar__navigation-item--button:hover::before {
     left: 90px;
+    background: white;
 }
