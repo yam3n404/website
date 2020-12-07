@@ -17,6 +17,13 @@
     padding-bottom: 30%;
 }
 
+/* Breakpoint for medium screen ( 1000px and up) */
+@media only screen and (max-width: 1000px) {
+    .section--lighter {
+        flex-direction: column;
+    }
+}
+
 .section--main {
     margin-top: -10%;
     padding-top: 17%;
@@ -35,7 +42,7 @@
 
 @media only screen and (max-width: 600px) {
     .section--main {
-        padding: 25% 15%;
+        padding: 30% 15%;
     }
 }
 
@@ -62,6 +69,29 @@
     position: relative;
 }
 
+.section__figure--illustration {
+    width: 60%;
+    height: auto;
+    min-width: 400px;
+}
+
+/* Breakpoint for medium screen ( 1000px and up) */
+@media only screen and (max-width: 1000px) {
+    .section__figure--illustration {
+        margin-bottom: 10%;
+        align-self: center;
+    }
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .section__figure--illustration {
+        min-width: 246px;
+        margin-top: -32%;
+    }
+}
+
 .section__figure--bottom {
     display: flex;
     align-items: center;
@@ -80,18 +110,19 @@
 /* Breakpoint for medium screen ( 1000px and up) */
 
 @media only screen and (max-width: 1000px) {
-    .section__figure {
-        align-self: flex-start;
-    }
-
     .section__figure--picture {
         margin-top: 20%;
+        align-self: flex-start;
     }
 }
 
 /* Breakpoint for small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
+    .section__figure {
+        align-self: flex-start;
+    }
+
     .section__figure--picture {
         border-radius: 17px;
         height: 246px;
