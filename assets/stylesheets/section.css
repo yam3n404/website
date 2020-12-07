@@ -107,6 +107,17 @@
     margin-bottom: 3%;
 }
 
+/* Breakpoint for medium screen ( 1000px and down) */
+
+@media only screen and (max-width: 1000px) {
+    .section__figure--bottom {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
 .section__figure--picture {
     border-radius: 17px;
     height: 440px;

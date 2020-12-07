@@ -27,6 +27,21 @@
     }
 }
 
+.top-bar__navigation--bottom {
+    padding: 0;
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .top-bar__navigation--bottom {
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .top-bar__navigation-item--righty {
+        margin-top: 10%;
+    }
+}
 
 .top-bar__navigation--lighter {
     opacity: 60%;
@@ -46,6 +61,21 @@
     border: 0.750em solid #457B9D;
     border-radius: 0.650em;
     transition: all .4s ease-in-out;
+}
+
+.top-bar__logo--dark {
+    max-width: 80px;
+    background: #1D3557;
+    border-color: #1D3557;
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .top-bar__logo--dark {
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
 }
 
 .top-bar__logo:hover {
@@ -136,6 +166,11 @@
     background: #ffed00;
     transition: all .4s ease-in-out;
 }
+
+.top-bar__links:hover::after {
+    width: 0;
+}
+
 
 /* Breakpoint for small devices (phones, 600px and down) */
 
