@@ -130,13 +130,18 @@
     display: block;
     content: ' ';
     width: 105%;
-    height: 20px;
+    height: 100%;
     left: -5px;
     top: 0;
     background: #ffed00;
     transition: all .4s ease-in-out;
 }
 
-.top-bar__links:hover::after {
-    width: 0;
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .top-bar__links::after {
+        left: -2px;
+        width: 102%;
+    }
 }

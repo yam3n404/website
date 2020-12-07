@@ -51,10 +51,34 @@
     font-weight: lighter;
 }
 
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .article__headline--main{
+        font-size: 36px;
+        line-height: 1.7;
+    }
+
+    .article__headline--small {
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+}
+
+
 .article__text {
     font-size: 28px;
     margin-top: -1%;
     font-weight: lighter;
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .article__text {
+        font-size: 17px;
+        margin-bottom: 10%;
+    }
 }
 
 .article__text--medium {
@@ -82,6 +106,22 @@
     border-radius: 10px;
     position: relative;
     transition: all .4s ease-in-out;
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .article__button {
+        font-size: 14px;
+        animation: button 3s ease-in-out 3s infinite;
+    }
+
+    /* button keyframes animation */
+    @keyframes button {
+        0%   {
+            border-color: white;
+        }
+    }
 }
 
 .article__button:hover {

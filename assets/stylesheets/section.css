@@ -18,12 +18,27 @@
 }
 
 .section--main {
-    background: url(/assets/img/code-background.png) no-repeat center;
-    background-size: cover;
     margin-top: -10%;
     padding-top: 17%;
     padding-bottom: 15%;
 }
+
+/* Breakpoint for medium screen ( 1000px and up) */
+
+@media only screen and (max-width: 1000px) {
+    .section--main {
+        flex-direction: column;
+    }
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .section--main {
+        padding: 25% 15%;
+    }
+}
+
 
 .section--cards {
     background: #A8DADC;
@@ -43,6 +58,7 @@
 }
 
 .section__figure {
+    margin: 0;
     position: relative;
 }
 
@@ -54,11 +70,35 @@
 
 .section__figure--picture {
     border-radius: 17px;
-    width: 440px;
     height: 440px;
+    width: 440px;
     object-fit: none;
     object-position: 50% 5%;
     transition: all .6s ease-in-out;
+}
+
+/* Breakpoint for medium screen ( 1000px and up) */
+
+@media only screen and (max-width: 1000px) {
+    .section__figure {
+        align-self: flex-start;
+    }
+
+    .section__figure--picture {
+        margin-top: 20%;
+    }
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .section__figure--picture {
+        border-radius: 17px;
+        height: 246px;
+        width: 246px;
+        object-fit: cover;
+        pointer-events: none;
+    }
 }
 
 .section__figure--picture:hover {
@@ -75,6 +115,22 @@
    pointer-events: none;
    background: linear-gradient(0.25turn, #26446e, #1D3557);
    transition: all .6s ease-in-out;
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .section__picture-caption {
+        z-index: 1;
+        opacity: 1;
+        font-size: 12px;
+        left: 0;
+        bottom: 5%;
+        width: 100%;
+        text-align: center;
+        opacity: 60%;
+        letter-spacing: 1px;
+    }
 }
 
 .section__figure--picture:hover + .section__picture-caption {
