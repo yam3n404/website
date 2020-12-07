@@ -2,6 +2,15 @@
     padding: 3% 10%;
 }
 
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .top-bar {
+        padding-top: 10%;
+    }
+}
+
 .top-bar__navigation {
     display: flex;
     flex-direction: row;
@@ -9,6 +18,15 @@
     align-items: center;
     list-style: none;
 }
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .top-bar__navigation--header {
+        justify-content: center;
+    }
+}
+
 
 .top-bar__navigation--lighter {
     opacity: 60%;
@@ -55,6 +73,14 @@
     font-size: 18px;
     opacity: 70%;
     transition: all .4s ease-in-out;
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .top-bar__navigation-item--button {
+        display: none;
+    }
 }
 
 .top-bar__navigation-item--button:hover {
