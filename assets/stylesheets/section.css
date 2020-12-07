@@ -43,9 +43,7 @@
 }
 
 .section__figure {
-    border-radius: 17px;
-    height: 100%;
-    width: auto;
+    position: relative;
 }
 
 .section__figure--bottom {
@@ -55,12 +53,34 @@
 }
 
 .section__figure--picture {
-    transition: all .4s ease-in-out;
+    border-radius: 17px;
+    width: 440px;
+    height: 440px;
+    object-fit: none;
+    object-position: 50% 5%;
+    transition: all .6s ease-in-out;
 }
 
 .section__figure--picture:hover {
-    transform: translateY(-2px);
-    box-shadow:  1px 5px 50px black;
+    object-position: 50% 15%;
+    filter: blur(1px) brightness(90%);
+}
+
+.section__picture-caption {
+   position: absolute;
+   bottom: 0;
+   left: 15%;
+   z-index: -1;
+   opacity: 0;
+   pointer-events: none;
+   background: linear-gradient(0.25turn, #26446e, #1D3557);
+   transition: all .6s ease-in-out;
+}
+
+.section__figure--picture:hover + .section__picture-caption {
+    bottom: 5%;
+    opacity: 1;
+    z-index: 1;
 }
 
 .section__caption {
