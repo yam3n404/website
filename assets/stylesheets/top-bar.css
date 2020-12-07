@@ -22,13 +22,18 @@
 }
 
 .top-bar__logo {
+    max-width: 56px;
+    width: 100%;
+    background: #457B9D;
+    border: 0.750em solid #457B9D;
+    border-radius: 0.650em;
     transition: all .4s ease-in-out;
 }
 
 .top-bar__logo:hover {
-    border-radius: 10px;
     transform: translateY(-2px);
-    box-shadow:  1px 5px 15px black;
+    box-shadow:  1px 1px 15px black;
+    filter: brightness(110%);
 }
 
 .top-bar__navigation-item {
