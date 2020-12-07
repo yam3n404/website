@@ -16,9 +16,28 @@
     transition: all .4s ease-out;
 }
 
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .card {
+        padding: 20% 5%;
+        width: 246px;
+        justify-content: flex-start;
+        min-height: 600px;
+    }
+}
+
 .card--dark {
     background: linear-gradient(0.25turn, #26446e, #1D3557);
     z-index: 0;
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .card--dark {
+        margin-top: 0;
+    }
 }
 
 .card--dark:hover {
@@ -32,12 +51,32 @@
     flex-direction: row;
     align-self: center;
     max-width: 64%;
+    min-width: 550px;
     padding: 3%;
     min-height: 100%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -5%;
     text-align: left;
     transition: all .4s ease-out;
+}
+
+/* Breakpoint for medium screen ( 1000px and down) */
+@media only screen and (max-width: 1000px) {
+    .card--contact {
+        flex-direction: column;
+    }
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .card--contact {
+        width: 198px;
+        min-width: 198px;
+        margin-left: 15%;
+        padding: 10%;
+    }
 }
 
 .card--contact:hover {

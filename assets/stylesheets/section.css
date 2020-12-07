@@ -17,7 +17,7 @@
     padding-bottom: 30%;
 }
 
-/* Breakpoint for medium screen ( 1000px and up) */
+/* Breakpoint for medium screen ( 1000px and down) */
 @media only screen and (max-width: 1000px) {
     .section--lighter {
         flex-direction: column;
@@ -30,7 +30,7 @@
     padding-bottom: 15%;
 }
 
-/* Breakpoint for medium screen ( 1000px and up) */
+/* Breakpoint for medium screen ( 1000px and down) */
 
 @media only screen and (max-width: 1000px) {
     .section--main {
@@ -51,6 +51,15 @@
     background: #A8DADC;
     justify-content: center;
     align-items: flex-start;
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .section--cards {
+        flex-direction: column;
+        padding-bottom: 25%;
+    }
 }
 
 .section--contact {
@@ -75,7 +84,7 @@
     min-width: 400px;
 }
 
-/* Breakpoint for medium screen ( 1000px and up) */
+/* Breakpoint for medium screen ( 1000px and down) */
 @media only screen and (max-width: 1000px) {
     .section__figure--illustration {
         margin-bottom: 10%;
@@ -107,7 +116,7 @@
     transition: all .6s ease-in-out;
 }
 
-/* Breakpoint for medium screen ( 1000px and up) */
+/* Breakpoint for medium screen ( 1000px and down) */
 
 @media only screen and (max-width: 1000px) {
     .section__figure--picture {
