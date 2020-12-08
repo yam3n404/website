@@ -14,7 +14,7 @@
 .section--lighter {
     background: #457B9D;
     align-items: center;
-    padding-bottom: 30%;
+    padding-bottom: 22%;
 }
 
 /* Breakpoint for medium screen ( 1000px and down) */
@@ -56,6 +56,7 @@
 @media only screen and (max-width: 600px) {
     .section--main {
         padding: 30% 15%;
+        padding-top: 50%;
     }
 }
 
@@ -95,6 +96,7 @@
     width: 60%;
     height: auto;
     min-width: 400px;
+    z-index: 3;
 }
 
 /* Breakpoint for medium screen ( 1000px and down) */

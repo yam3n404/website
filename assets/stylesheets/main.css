@@ -13,10 +13,9 @@ body {
     position: relative;
 }
 
-html{
+html {
     background: #1D3557 url(/assets/img/pattern.png);
     background-blend-mode: screen;
     background-size: 6%;
     background-position: center;
-
 }
