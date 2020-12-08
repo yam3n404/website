@@ -2,7 +2,7 @@
     margin-top: -30%;
     max-width: 550px;
     width: 100%;
-    min-height: 1000px;
+    min-height: 1120px;
     padding: 5%;
     background: white;
     border-radius: 17px;
@@ -21,7 +21,7 @@
 @media only screen and (max-width: 600px) {
     .card {
         padding: 20% 5%;
-        width: 246px;
+        max-width: 84%;
         justify-content: flex-start;
         min-height: 600px;
     }
@@ -72,15 +72,15 @@
 
 @media only screen and (max-width: 600px) {
     .card--contact {
-        width: 198px;
-        min-width: 198px;
+        width: 46%;
+        min-width: 10%;
         margin-left: 15%;
         padding: 10%;
     }
 }
 
 .card--contact:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
 }
 
 .card--light:hover {

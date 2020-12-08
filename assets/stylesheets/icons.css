@@ -22,3 +22,12 @@
     opacity: 100%;
     filter: sepia(0);
 }
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .icons__image {
+        filter: sepia(0);
+        opacity: 100%;
+    }
+}
