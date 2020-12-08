@@ -13,4 +13,12 @@
 .icons__image {
     max-width: 100px;
     height: auto;
+    filter: sepia(100%);
+    opacity: 50%;
+    transition: all .3s ease;
+}
+
+.icons__image:hover {
+    opacity: 100%;
+    filter: sepia(0);
 }

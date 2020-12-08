@@ -41,8 +41,7 @@
 }
 
 .card--dark:hover {
-    transform: translateY(-2px);
-    box-shadow:  -5px 5px 50px black;
+    transform: translateY(-5px);
     z-index: 1;
 }
 
@@ -81,13 +80,11 @@
 }
 
 .card--contact:hover {
-    transform: translateY(-2px);
-    box-shadow:  1px 1px 20px #80808034	;
+    transform: translateY(-5px);
 }
 
 .card--light:hover {
-    transform: translateY(-2px);
-    box-shadow:  5px 5px 20px #A8DADC;
+    transform: translateY(-5px);
 }
 
 .card__list-title {
