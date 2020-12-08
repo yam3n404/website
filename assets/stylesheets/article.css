@@ -114,6 +114,14 @@
     width: 70%;
 }
 
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .article__text--subtract {
+        width: 95%;
+    }
+}
+
 .article__button {
     text-transform: uppercase;
     text-decoration: none;

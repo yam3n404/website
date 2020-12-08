@@ -1,0 +1,16 @@
+.icons {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icons__item {
+    flex: 1;
+}
+
+.icons__image {
+    max-width: 100px;
+    height: auto;
+}
