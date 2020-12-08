@@ -12,3 +12,11 @@ body {
     background: linear-gradient(0.25turn, #26446e, #1D3557);
     position: relative;
 }
+
+html{
+    background: #1D3557 url(/assets/img/pattern.png);
+    background-blend-mode: screen;
+    background-size: 6%;
+    background-position: center;
+
+}
