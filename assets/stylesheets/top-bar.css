@@ -1,5 +1,8 @@
 .top-bar {
     padding: 3% 10%;
+    position: absolute;
+    max-width: 1600px;
+    width: 80%;
 }
 
 
