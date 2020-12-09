@@ -13,7 +13,6 @@
     flex-wrap: nowrap;
     text-align: center;
     z-index: 1;
-    transition: all .4s ease-out;
 }
 
 /* Breakpoint for small devices (phones, 600px and down) */
@@ -40,11 +39,6 @@
     }
 }
 
-.card--dark:hover {
-    transform: translateY(-5px);
-    z-index: 1;
-}
-
 .card--contact {
     background: #457B9D;
     flex-direction: row;
@@ -57,7 +51,6 @@
     margin-right: auto;
     margin-top: -5%;
     text-align: left;
-    transition: all .4s ease-out;
 }
 
 /* Breakpoint for medium screen ( 1000px and down) */
@@ -78,14 +71,6 @@
         padding: 10%;
         margin-top: -10%;
     }
-}
-
-.card--contact:hover {
-    transform: translateY(-2px);
-}
-
-.card--light:hover {
-    transform: translateY(-5px);
 }
 
 .card__list-title {
