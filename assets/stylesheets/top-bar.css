@@ -50,7 +50,7 @@
 }
 
 .top-bar__navigation--lighter {
-    opacity: 60%;
+    opacity: 70%;
     transition: all .4s ease-in-out;
 }
 
@@ -61,12 +61,6 @@
         margin-bottom: 8%;
         font-size: 10px;
     }
-}
-
-.top-bar__navigation--lighter:hover {
-    transform: translateY(-2px);
-    text-shadow:  1px 5px 15px black;
-    opacity: 100%;
 }
 
 .top-bar__navigation--bottom {
