@@ -13,14 +13,14 @@
 .icons__image {
     max-width: 100px;
     height: auto;
-    filter: sepia(100%);
-    opacity: 50%;
-    transition: all .3s ease;
+    filter: sepia(100%) hue-rotate(150deg) brightness(80%);
+    opacity: 75%;
+    transition: all .4s ease;
 }
 
 .icons__image:hover {
     opacity: 100%;
-    filter: sepia(0);
+    filter: none;
 }
 
 /* Breakpoint for small devices (phones, 600px and down) */
