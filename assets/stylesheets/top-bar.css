@@ -59,6 +59,7 @@
 @media only screen and (max-width: 600px) {
     .top-bar__navigation--lighter {
         margin-bottom: 8%;
+        font-size: 10px;
     }
 }
 
