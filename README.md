@@ -1,6 +1,6 @@
 # My personal website [yamenhadla.com](https://www.yamenhadla.com)
 
-Hi! there 😄  I am happy to join the programming club and share my first projekt with you guys and it has to be my personal website though. 😉 
+Hi! there 😄  I am happy to join the programming club and being able to share my first projekt with you, and it has to be my personal website though. 😉 
 
 feel free to give feedback.
 
