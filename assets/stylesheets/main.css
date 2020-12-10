@@ -11,7 +11,7 @@ body {
     letter-spacing: 2px;
     background: linear-gradient(0.25turn, #26446e, #1D3557);
     position: relative;
-    box-shadow: 1px 1px 900px #26446e;
+    box-shadow: 1px 1px 900px rgba(0, 0, 0, 0.4);
 }
 
 html {
