@@ -63,6 +63,10 @@
     margin-bottom: 12%;
 }
 
+.article__headline--top-spacing {
+    margin-top: 12%;
+}
+
 .article__headline--dark {
     color: #1D3557;
 }

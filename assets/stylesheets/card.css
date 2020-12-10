@@ -43,6 +43,7 @@
     background: #457B9D;
     flex-direction: row;
     align-self: center;
+    justify-content: center;
     max-width: 64%;
     min-width: 550px;
     padding: 3%;
