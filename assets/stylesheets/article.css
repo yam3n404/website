@@ -38,9 +38,21 @@
 }
 
 .article__headline--medium {
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 2px;
     text-transform: inherit;
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .article__headline--medium {
+        font-size: 20px;
+    }
+}
+
+.article__headline--spacing {
+    margin-bottom: 12%;
 }
 
 .article__headline--dark {
@@ -83,6 +95,7 @@
 
 .article__text--medium {
     font-size: 22px;
+    margin-bottom: 10%;
 }
 
 /* Breakpoint for small devices (phones, 600px and down) */
@@ -90,18 +103,6 @@
 @media only screen and (max-width: 600px) {
     .article__text--medium {
         font-size: 17px;
-    }
-}
-
-.article__headline--medium {
-    font-size: 24px;
-}
-
-/* Breakpoint for small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px) {
-    .article__headline--medium {
-        font-size: 20px;
     }
 }
 
