@@ -7,7 +7,15 @@
 .article--card {
     align-items: center;
     flex-wrap: nowrap;
-    min-height: 400px;
+    min-height: 350px;
+}
+
+/* Breakpoint for small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .article--card {
+        min-height: 200px;
+    }
 }
 
 .article--subtract {
