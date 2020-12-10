@@ -148,7 +148,7 @@
 }
 
 .top-bar__navigation-item--button:hover::before {
-    left: 100px;
+    left: 88px;
     background: white;
 }
 
