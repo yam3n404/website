@@ -37,8 +37,9 @@
     height: 100%;
     left: 0;
     top: 0;
-    opacity: 8%;
+    opacity: 6%;
     object-fit: cover;
+    z-index: -1;
 }
 
 /* Breakpoint for small devices (phones, 600px and down) */
