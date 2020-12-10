@@ -1,9 +1,10 @@
-# My personal website [yamenhadla.com](https://www.yamenhadla.com)
+# [yamenhadla.com](https://www.yamenhadla.com)
 
 Hi! there 😄
-I am happy to join the programming club and being able to share my first projekt with you, and it has to be my personal website though. 😉 
 
-feel free to give feedback.
+I am happy to join the programming club and being able to share my first project with you, and it has to be my personal website though. 😉 
+
+Feel free to give feedback.
 
 ###### You can find me on [![Twitter][1.2]][1]
 
