@@ -186,7 +186,7 @@
 }
 
 .article__button:hover:hover::before {
-    left: 110px;
+    left: 88%;
     background: white;
 }
 
@@ -196,6 +196,6 @@
 }
 
 .article__button:hover::after {
-    right: 110px;
+    right: 88%;
     background: white;
 }
