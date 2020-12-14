@@ -40,6 +40,7 @@
     opacity: 5%;
     object-fit: cover;
     z-index: -1;
+    pointer-events: none;
 }
 
 /* Breakpoint for small devices (phones, 600px and down) */
