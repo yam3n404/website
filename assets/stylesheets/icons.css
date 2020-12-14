@@ -29,5 +29,6 @@
     .icons__image {
         filter: sepia(0);
         opacity: 100%;
+        width: 80px;
     }
 }
