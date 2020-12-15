@@ -95,9 +95,13 @@
     }
 }
 
-.top-bar__logo:hover {
-    transform: translateY(-5px);
-    filter: brightness(110%);
+/* disable hover effect for mobile */
+
+@media only screen and (min-width: 600px) {
+    .top-bar__logo:hover {
+        transform: translateY(-5px);
+        filter: brightness(110%);
+    }
 }
 
 .top-bar__navigation-item {
@@ -129,10 +133,14 @@
     }
 }
 
-.top-bar__navigation-item--button:hover {
-    transform: translateY(-2px);
-    text-shadow:  1px 5px 15px black;
-    opacity: 100%;
+/* disable hover effect for mobile */
+
+@media only screen and (min-width: 600px) {
+    .top-bar__navigation-item--button:hover {
+        transform: translateY(-2px);
+        text-shadow:  1px 5px 15px black;
+        opacity: 100%;
+    }
 }
 
 .top-bar__navigation-item--button::before {
@@ -147,9 +155,14 @@
     transition: all .4s ease-in-out;
 }
 
-.top-bar__navigation-item--button:hover::before {
-    left: 88px;
-    background: white;
+
+/* disable hover effect for mobile */
+
+@media only screen and (min-width: 600px) {
+    .top-bar__navigation-item--button:hover::before {
+        left: 88px;
+        background: white;
+    }
 }
 
 .top-bar__conclusion {
@@ -174,8 +187,13 @@
     transition: all .4s ease-in-out;
 }
 
-.top-bar__links:hover {
-    color: #ffed00;
+
+/* disable hover effect for mobile */
+
+@media only screen and (min-width: 600px) {
+    .top-bar__links:hover {
+        color: #ffed00;
+    }
 }
 
 .top-bar__links::after {
@@ -191,8 +209,12 @@
     transition: all .4s ease-in-out;
 }
 
-.top-bar__links:hover::after {
-    width: 0;
+/* disable hover effect for mobile */
+
+@media only screen and (min-width: 600px) {
+    .top-bar__links:hover::after {
+        width: 0;
+    }
 }
 
 
@@ -204,46 +226,6 @@
         width: 102%;
     }
 }
-
-
-/* twitter social media link */
-
-.top-bar__social {
-    position: absolute;
-    left: 11.2%;
-}
-
-.top-bar__twitter {
-    margin-top: 1%;
-    width: 40px;
-    position: fixed;
-    z-index: -1;
-    top: 3%;
-    transition: all .3s ease;
-    animation: pulse 1s cubic-bezier(.29, 1.01, 1, -0.68) infinite;
-}
-
-.top-bar__twitter:hover {
-    animation: none;
-    transform: scale(1.4);
-}
-
-/* animation keyframes when loading */
-@keyframes pulse {
-
-    0%   {
-        filter: none;
-        transform: scale(1);
-
-    }
-
-    100% {
-        filter: brightness(120%);
-        transform: scale(1.2);
-    }
-
-}
-
 
 /* Breakpoint for small devices (phones, 600px and down) */
 
