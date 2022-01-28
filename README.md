@@ -2,9 +2,7 @@
 
 Hi! there 😄
 
-I am happy to join the programming club and being able to share my first project with you, and it has to be my personal website though. 😉 
-
-Feel free to give feedback.
+Just my personal website
 
 ###### You can find me on [![Twitter][1.2]][1]
 
